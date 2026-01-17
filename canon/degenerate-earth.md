@@ -1,46 +1,117 @@
+# Canon
+
+This document establishes the canonical assumptions of the Codex.
+
+It exists to reduce ambiguity for future readers and to define what is considered stable, intentional, and foundational within this archive.
+
+Canon is not mythology.  
+Canon is constraint.
+
 ---
-layout: page
-title: "Canon: Degenerate Earth"
+
+## Purpose of canon
+
+Over time, records fragment.
+
+Without a stable reference point, later material becomes difficult to interpret, compare, or trust. Canon exists to anchor interpretation.
+
+Anything recorded here is assumed to be:
+- Deliberate
+- Representative of intent at the time of writing
+- Resistant to revision without cause
+
+Canon is not exhaustive.  
+It is selective by necessity.
+
 ---
 
-# Canon: Degenerate Earth
+## Scope
 
-Degenerate Earth is a street‑art‑tinted myth — classical marble and modern noise, gold cracks and hard truth.
+Canon applies to:
+- Structural assumptions
+- Philosophical constraints
+- Design principles
+- Definitions that affect interpretation elsewhere in the Codex
 
-It’s not “luxury.” It’s not “ironic.” It’s **worn philosophy**.
+Canon does **not** attempt to:
+- Predict outcomes
+- Persuade readers
+- Encode belief systems
+- Establish authority
 
-## Mission
+---
 
-Create artifacts that feel like they were dug up from the future.
+## Foundational assumptions
 
-A brand can be more than merch. It can be a signal:
+The following assumptions are treated as baseline within the Codex:
 
-- **Beauty survives.**
-- **Meaning outlasts trend.**
-- **The human story is older and stranger than we act like.**
+1. **Continuity is not guaranteed**  
+   Civilizations, institutions, and technologies can fail abruptly.
 
-## Tone
+2. **Loss is the default state**  
+   Knowledge does not persist unless actively preserved.
 
-- **Classical** (forms, proportion, myth)
-- **Ruptured** (cracks, erosion, stencil, spray)
-- **Defiant** (not polished, not begging approval)
+3. **Interpretation degrades over time**  
+   Symbols, languages, and contexts shift or disappear.
 
-## Principles
+4. **Durability matters more than completeness**  
+   A partial record that survives is more valuable than a perfect one that does not.
 
-1. **The image must hold up at a distance.**
-2. **Details are rewards, not requirements.**
-3. **Every drop has a thesis.** If it’s empty, it’s noise.
-4. **File durability matters.** If the design can’t be exported cleanly, it isn’t finished.
+5. **Future readers may be non-contemporary**  
+   They may lack cultural, linguistic, or technical continuity with the creators.
 
-## Motifs (living list)
+---
 
-- Cracked marble busts
-- Laurel crowns
-- Fortuna / Gambler imagery
-- Gold kintsugi‑style fractures
-- Ancient geometry + modern tagging
+## On authorship
 
-## Links
+Authorship is considered secondary to legibility.
 
-- Obelisk project: [Obelisk Index](../obelisk/)
-- Symbols: [Design Symbols](../design/symbols/)
+Names, identities, and origins are less important than:
+- Internal consistency
+- Clear definitions
+- Explicit assumptions
+
+Material should stand on its own without requiring trust in the author.
+
+---
+
+## On revision
+
+Canon is conservative.
+
+Changes should occur only when:
+- An assumption is demonstrably false
+- A definition introduces ambiguity
+- A constraint prevents comprehension or survivability
+
+Revisions should preserve prior meaning whenever possible.
+
+Deletion is discouraged.  
+Supersession is preferred.
+
+---
+
+## Relationship to other sections
+
+- **Obelisk** explores implementation and encoding strategies
+- **Design** addresses symbol systems and visual constraints
+- **Archive** contains raw or unrefined material not yet stabilized
+
+Canon governs how these sections are interpreted, not what they contain.
+
+---
+
+## Canonical posture
+
+This Codex does not assume benevolence, continuity, or rescue.
+
+It assumes only that:
+- Someone may find this
+- Something may be missing
+- Understanding may be incomplete
+
+The Canon exists to make that understanding possible.
+
+---
+
+> If this document is still readable, then some continuity has already been achieved.
