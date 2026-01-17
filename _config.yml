@@ -1,0 +1,17 @@
+title: "Codex — Degenerate Earth"
+description: "A living archive: mission, canon, and the Obelisk knowledge-preservation project."
+url: "https://codex.degenerate.earth"
+
+theme: minima
+markdown: kramdown
+
+# Simple top-nav (Minima)
+header_pages:
+  - index.md
+  - canon/degenerate-earth.md
+  - obelisk/index.md
+  - design/symbols.md
+  - archive/raw-notes.md
+
+# Keep URLs clean: /obelisk/ not /obelisk/index.html
+permalink: pretty
