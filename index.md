@@ -1,33 +1,101 @@
----
-layout: page
-title: "Codex"
-permalink: /
----
-
 # Codex
 
-Welcome to **Codex: Degenerate Earth** — a simple, durable home for the ideas behind the brand and the projects that orbit it.
+This site exists for one purpose:  
+**the preservation of knowledge.**
 
-This site is built on purpose:
+Not branding.  
+Not commerce.  
+Not attention.
 
-- **Readable** — plain language, plain files.
-- **Portable** — clone it, mirror it, print it, archive it.
-- **Persistent** — no platform drama, no fragile dashboards.
-
-## What you’ll find here
-
-- **Mission & Canon** → the “why” and the core identity.
-- **Obelisk** → the knowledge‑preservation pillar (engineering-first, survivability-minded).
-- **Design** → symbols, iconography, and constraints that keep the aesthetic coherent.
-- **Archive** → raw notes and scraps that may become canon later.
-
-## Start here
-
-- Read the **Canon**: [Degenerate Earth](./canon/degenerate-earth/)
-- Enter **Obelisk**: [Obelisk Index](./obelisk/)
+What is recorded here is intended to outlast platforms, trends, and institutions.
 
 ---
 
-### The rule
+## Why this exists
 
-If it can’t survive copy‑paste, print, and time — it doesn’t belong in the Codex.
+Most human knowledge is fragile.
+
+It lives on servers, behind logins, inside proprietary formats, or in places that assume uninterrupted continuity. History suggests that assumption is false.
+
+Civilizations forget.  
+Formats decay.  
+Power fails.
+
+The Codex is an attempt to reduce loss.
+
+---
+
+## Principles
+
+- **Legibility over novelty**  
+  What is preserved must be readable without context, training, or tools.
+
+- **Redundancy over efficiency**  
+  Important knowledge should exist in multiple forms, even if that seems wasteful.
+
+- **Clarity over elegance**  
+  Precision matters more than beauty.
+
+- **Survivability over optimization**  
+  If something cannot survive disruption, it does not belong here.
+
+---
+
+## What is contained here
+
+This repository contains structured attempts to record:
+
+- Fundamental concepts
+- Systems of representation
+- Methods of encoding information
+- Warnings, constraints, and failure modes
+- Ideas intended to be recoverable by future readers
+
+Some material is speculative.  
+Some is incomplete.  
+All of it is written with the assumption that the reader may not share our language, tools, or context.
+
+---
+
+## The Obelisk Project
+
+A major focus of this Codex is the **Obelisk Project** — an exploration of how knowledge might be encoded in durable, non-digital forms capable of surviving extreme time horizons.
+
+This includes:
+- Physical encoding strategies
+- Symbol systems
+- Mathematical baselines
+- Material considerations
+- Interpretability constraints
+
+The Obelisk is not a monument.  
+It is a *medium*.
+
+---
+
+## Intended reader
+
+You are not assumed to be:
+- A customer
+- A follower
+- A contemporary
+
+You are assumed only to be:
+- Intelligent
+- Curious
+- Arriving after something has been lost
+
+---
+
+## Status
+
+This Codex is incomplete by design.  
+It will evolve slowly.  
+Revisions favor caution over speed.
+
+Nothing here is final.  
+Nothing here is accidental.
+
+---
+
+> If this survives, let it be understood plainly.
