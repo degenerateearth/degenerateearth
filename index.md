@@ -3,17 +3,6 @@ title: ""
 ---
 
 
-This site exists for one purpose:  
-**the preservation of knowledge.**
-
-Not branding.  
-Not commerce.  
-Not attention.
-
-What is recorded here is intended to outlast platforms, trends, and institutions.
-
----
-
 ## Why this exists
 
 Most human knowledge is fragile.
