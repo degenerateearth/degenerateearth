@@ -1,117 +1,90 @@
-# Canon
+## Constraints
 
-This document establishes the canonical assumptions of the Codex.
+This Codex is written under deliberate constraints.
 
-It exists to reduce ambiguity for future readers and to define what is considered stable, intentional, and foundational within this archive.
+What is recorded here is limited to what can be preserved through durable matter and minimal interpretation.  
+If a concept cannot be carved in stone, etched in glass, or reconstructed without shared language, it is excluded.
 
-Canon is not mythology.  
-Canon is constraint.
+These constraints are not symbolic.  
+They are applied.
 
----
+### Material Viability
+All knowledge recorded in the Codex must be expressible using permanent, non-electronic media.
 
-## Purpose of canon
+Assumed substrates include:
+- stone
+- metal
+- glass
+- fired clay
 
-Over time, records fragment.
+Anything that depends on:
+- electricity
+- computation
+- compression
+- playback
+- proprietary tooling
 
-Without a stable reference point, later material becomes difficult to interpret, compare, or trust. Canon exists to anchor interpretation.
+is rejected.
 
-Anything recorded here is assumed to be:
-- Deliberate
-- Representative of intent at the time of writing
-- Resistant to revision without cause
+### Language Independence
+The Codex assumes linguistic collapse.
 
-Canon is not exhaustive.  
-It is selective by necessity.
+Entries must remain interpretable without reliance on any specific spoken or written language.
 
----
+Where language is used, it functions only as a scaffold.  
+Meaning must be recoverable through structure, repetition, proportion, or physical reference.
 
-## Scope
+If understanding requires fluency, the entry fails.
 
-Canon applies to:
-- Structural assumptions
-- Philosophical constraints
-- Design principles
-- Definitions that affect interpretation elsewhere in the Codex
+### Form
+Legibility precedes completeness.
 
-Canon does **not** attempt to:
-- Predict outcomes
-- Persuade readers
-- Encode belief systems
-- Establish authority
+Text is minimized.  
+Symbols are constrained.  
+Diagrams are favored only when they can be reproduced by hand and decoded without annotation.
 
----
+No entry depends on color, motion, sound, or cultural convention.
 
-## Foundational assumptions
+### Scope
+Only knowledge that survives abstraction is recorded.
 
-The following assumptions are treated as baseline within the Codex:
+Procedures, measurements, and relationships are favored over description.
 
-1. **Continuity is not guaranteed**  
-   Civilizations, institutions, and technologies can fail abruptly.
+Knowledge that cannot be reduced to:
+- count
+- ratio
+- geometry
+- sequence
+- observable cause and effect
 
-2. **Loss is the default state**  
-   Knowledge does not persist unless actively preserved.
+is excluded.
 
-3. **Interpretation degrades over time**  
-   Symbols, languages, and contexts shift or disappear.
+### Permanence
+The Codex is written for recovery, not continuity.
 
-4. **Durability matters more than completeness**  
-   A partial record that survives is more valuable than a perfect one that does not.
+It assumes:
+- interruption
+- damage
+- partial survival
+- misordering
 
-5. **Future readers may be non-contemporary**  
-   They may lack cultural, linguistic, or technical continuity with the creators.
+Redundancy is intentional.  
+Elegance is secondary.
 
----
+### Authorship
+The Codex is authored.
 
-## On authorship
+It is not open to contribution, revision, or negotiation.
 
-Authorship is considered secondary to legibility.
+What appears here reflects completed work.  
+Absence is deliberate.
 
-Names, identities, and origins are less important than:
-- Internal consistency
-- Clear definitions
-- Explicit assumptions
+### Revision
+Errors may be corrected.  
+Entries may be removed.
 
-Material should stand on its own without requiring trust in the author.
+No addition is guaranteed permanence.  
+Nothing is preserved by default.
 
----
-
-## On revision
-
-Canon is conservative.
-
-Changes should occur only when:
-- An assumption is demonstrably false
-- A definition introduces ambiguity
-- A constraint prevents comprehension or survivability
-
-Revisions should preserve prior meaning whenever possible.
-
-Deletion is discouraged.  
-Supersession is preferred.
-
----
-
-## Relationship to other sections
-
-- **Obelisk** explores implementation and encoding strategies
-- **Design** addresses symbol systems and visual constraints
-- **Archive** contains raw or unrefined material not yet stabilized
-
-Canon governs how these sections are interpreted, not what they contain.
-
----
-
-## Canonical posture
-
-This Codex does not assume benevolence, continuity, or rescue.
-
-It assumes only that:
-- Someone may find this
-- Something may be missing
-- Understanding may be incomplete
-
-The Canon exists to make that understanding possible.
-
----
-
-> If this document is still readable, then some continuity has already been achieved.
+### Final Constraint
+If a piece of knowledge cannot survive loss of language, technology, and context, it does not belong here.
