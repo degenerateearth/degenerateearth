@@ -16,10 +16,6 @@ This section is written as if a stranger might find it centuries later.
 
 ## Sections
 
-- [Encoding](./encoding/)
-- [Materials](./materials/)
-- [Math Primer](./math/)
-- [Warnings](./warnings/)
 
 ## Design goals
 
