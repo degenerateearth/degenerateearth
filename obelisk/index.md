@@ -1,8 +1,7 @@
 ---
-title: ""
-nav_title: "Obelisk"
-permalink: /obelisk/
+title: Obelisk
 ---
+
 
 The Obelisk is an experimental knowledge-preservation project whose goal is to **sequentially encode the foundations of mathematics, geometry, physics, and astronomy into a single physical monument**.
 
