@@ -1,5 +1,5 @@
 # Obelisk
-
+title ""
 The Obelisk is an experimental knowledge-preservation project whose goal is to **sequentially encode the foundations of mathematics, geometry, physics, and astronomy into a single physical monument**.
 
 The intended form is literal: a stone or glass obelisk, carved or etched with marks that guide an unknown reader from basic quantity and spatial reasoning toward an understanding of the physical universe.
