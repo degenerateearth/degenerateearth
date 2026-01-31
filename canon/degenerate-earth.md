@@ -1,4 +1,7 @@
-## Constraints
+---
+title: Constraints
+---
+
 
 This Codex is written under deliberate constraints.
 
