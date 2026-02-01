@@ -156,8 +156,8 @@ Interpretation experiments are ongoing.
 ### Related Materials
 
 - arithmetic primer panel draft image
-  
-<img width="1536" height="1024" alt="basicnumerals" src="https://github.com/user-attachments/assets/420e6200-c62f-4b95-a9e5-2c4f511cb5d1" />
+  <img width="1104" height="779" alt="obeliskmath" src="https://github.com/user-attachments/assets/bdffce4f-a69c-48fd-80d4-f97634a735a8" />
+
 
 - symbol inventory entries for numerals and operators - Found on the Symbols page
 
