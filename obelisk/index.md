@@ -96,7 +96,65 @@ This section exists to confront the hardest problem in knowledge preservation:
 
 ## Sections
 
-This section will eventually contain individual reconstruction attempts.
+This section contains individual reconstruction attempts.
 Each will stand alone and make no assumptions beyond physical perception and time.
 
-(Sections forthcoming.)
+---
+
+## Face One — Numerals and Arithmetic
+
+**Objective:**  
+Establish a complete, language-independent foundation for arithmetic.
+
+This face attempts to teach:
+
+- discrete counting
+- zero
+- abstract numerals
+- equality
+- addition
+- subtraction
+- multiplication
+- decimal scaling and powers of ten
+
+No linguistic assumptions are made. Meaning is conveyed only through physical grouping, repetition, visual equivalence, and pattern.
+
+---
+
+### Scope
+
+Face One is limited to operations necessary to bootstrap further mathematical reasoning. It avoids fractions, division, geometry, or measurement systems, which are reserved for later faces.
+
+---
+
+### Teaching Strategy
+
+Concepts are introduced in ascending dependency:
+
+1. tally marks → quantity  
+2. numerals → compression of tallies  
+3. equivalence (`=`)  
+4. addition and subtraction  
+5. multiplication as repeated grouping  
+6. ten as a scaling constant  
+7. powers of ten
+
+Each operation is demonstrated redundantly at multiple magnitudes.
+
+---
+
+### Status
+
+Draft.
+
+The layout has not yet been tested against erosion, partial loss, or mis-ordering.
+
+Interpretation experiments are ongoing.
+
+---
+
+### Related Materials
+
+- arithmetic primer panel draft image
+- symbol inventory entries for numerals and operators
+
