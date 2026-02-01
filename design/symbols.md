@@ -3,161 +3,216 @@ layout: page
 title: "Symbols"
 ---
 
-This document defines symbol principles for the Codex.
+This page catalogs symbolic encodings used in the Codex and Obelisk projects.
 
-Symbols are treated here as tools for **compression, disambiguation, and survival**—not decoration and not identity.
+Each entry records:
 
-A symbol is acceptable only if it improves long-term interpretability.
+- the symbol or mark
+- what it represents
+- how its meaning is taught without language
+- where it appears in the system
 
----
-
-## Purpose
-
-Written language is brittle across time.
-Symbols can fail too, but they can fail more slowly when designed with constraint.
-
-This section exists to:
-- define what a symbol must do to be admissible
-- specify how symbols should be constructed and annotated
-- prevent drift into aesthetic or cultural specificity
+This is not a design manifesto.  
+It is an inventory.
 
 ---
 
-## Constraints
+## Format
 
-A Codex symbol system should be:
+Each symbol entry should follow this structure:
 
-- **Low-assumption**  
-  It must not depend on contemporary culture, language, or shared mythology.
+### Symbol: <name or glyph>
 
-- **Reconstructible**  
-  A careful reader should be able to infer meaning from local context and repeated usage.
+**Category:** numeral / operator / structural / physical mark / diagrammatic / other
 
-- **Composable**  
-  Symbols should combine into larger expressions without ambiguity.
+**Represents:**  
+What the symbol encodes.
 
-- **Redundant**  
-  Important meanings should be expressible more than one way (symbol + words + structure).
+**Teaching Method:**  
+How its meaning is inferred visually or through pattern alone.
 
-- **Physically representable**  
-  Symbols should be drawable, engravable, and distinguishable under wear.
+**Redundancy:**  
+What reinforces the interpretation (repetition, equivalence, scaling, contrast, etc.).
 
-- **Error-tolerant**  
-  Minor damage should not invert meaning.
+**First Appearance:**  
+Where it is introduced in the Codex or Obelisk.
 
----
-
-## Symbol classes
-
-The Codex uses symbols in limited, explicit categories.
-
-### 1) Structural markers
-Used to mark boundaries and hierarchy.
-
-Examples (conceptual):
-- section boundary
-- warning boundary
-- definition boundary
-- example boundary
-
-Rule: structure symbols must describe **form**, not content.
+**Notes:**  
+Edge cases, ambiguity risks, or future revisions.
 
 ---
 
-### 2) Relations
-Used to express relationships that can be reasoned about.
+## Encoded Symbols
 
-Examples:
-- equals / not-equals
-- implies
-- greater-than / less-than
-- subset / contains
-- causes / depends-on (only when defined)
-
-Rule: relation symbols must be paired with at least one written example when introduced.
+(Active inventory below.)
 
 ---
 
-### 3) Quantities and measurement
-Used to communicate number, magnitude, units, and scale.
+### Symbol: 0
 
-Principle: numbers should be grounded in a reconstructible baseline whenever possible
-(e.g., counting marks, ratios, periodic phenomena).
+**Category:** numeral
 
-Rule: when a unit is introduced, define it by relation to something else that can be observed or derived.
+**Represents:**  
+Absence of quantity.
 
----
+**Teaching Method:**  
+Shown adjacent to counted marks while having none beneath it; paired with operations such as `1 + 0 = 1`.
 
-### 4) Risk and hazard markers
-Used to communicate danger, irreversibility, or high consequence.
+**Redundancy:**  
+Null tally, identity in addition and subtraction.
 
-Risk symbols must be visually distinct and not easily confused with structural markers.
+**First Appearance:**  
+Arithmetic primer panel.
 
-Rule: hazard symbols must always be accompanied by written language and redundancy
-(e.g., repetition, framing, pictorial hint if available).
-
----
-
-## Introduction protocol
-
-No symbol is considered “known” by default.
-
-When introducing a new symbol, include:
-
-1. **Name** (plain language)
-2. **Shape description** (so it can be reconstructed)
-3. **Meaning** (one sentence)
-4. **Non-meaning** (what it does *not* mean)
-5. **Example usage**
-6. **Failure mode** (how it could be misread)
-
-If any of these cannot be supplied, the symbol should not be introduced.
+**Notes:**  
+Serves as anchor for positional notation.
 
 ---
 
-## Style rules
+### Symbol: 1–9
 
-To reduce confusion over time:
+**Category:** numeral
 
-- Prefer **simple strokes** over intricate detail
-- Avoid reliance on **color**
-- Avoid reliance on **fine line weight**
-- Avoid mirrored pairs that can invert meaning when rotated
-- Avoid symbols that resemble letters from a specific alphabet
-- Avoid symbols that resemble contemporary logos or icons
+**Represents:**  
+Discrete quantities.
 
----
+**Teaching Method:**  
+Mapped directly to increasing tally groups.
 
-## Redundancy rule
+**Redundancy:**  
+Repeated across addition and multiplication examples.
 
-For any critical meaning, symbols are *never* the sole carrier.
+**First Appearance:**  
+Arithmetic primer panel.
 
-Use at least two of:
-- written definition
-- repeated contextual usage
-- diagram or structured example
-- alternative phrasing or equivalent relation
-
-If meaning is important, it should survive partial loss.
+**Notes:**  
+Grouped in fives to emphasize aggregation.
 
 ---
 
-## Drift prevention
+### Symbol: =
 
-Symbols accumulate cultural associations over time.
+**Category:** operator
 
-To prevent drift:
-- do not introduce symbols for style
-- do not introduce symbols to “brand” the Codex
-- prefer function-driven forms
-- when in doubt, write it out
+**Represents:**  
+Equivalence between expressions.
+
+**Teaching Method:**  
+Pairs different representations of the same quantity.
+
+**Redundancy:**  
+Used in multiple arithmetic contexts.
+
+**First Appearance:**  
+Arithmetic primer panel.
+
+**Notes:**  
+None.
+
+---
+
+### Symbol: +
+
+**Category:** operator
+
+**Represents:**  
+Combination of quantities.
+
+**Teaching Method:**  
+Shown alongside tally groups being merged into larger totals.
+
+**Redundancy:**  
+Cross-checked with numeral results.
+
+**First Appearance:**  
+Arithmetic primer panel.
+
+**Notes:**  
+Associative and commutative properties implied later.
+
+---
+
+### Symbol: −
+
+**Category:** operator
+
+**Represents:**  
+Removal of quantity.
+
+**Teaching Method:**  
+Illustrated through reduction of tallies and numeric decrease.
+
+**Redundancy:**  
+Multiple scales shown.
+
+**First Appearance:**  
+Arithmetic primer panel.
+
+**Notes:**  
+Zero interactions explicitly demonstrated.
+
+---
+
+### Symbol: *
+
+**Category:** operator
+
+**Represents:**  
+Repeated grouping (multiplication).
+
+**Teaching Method:**  
+Second operand shown as repeated addition of the first.
+
+**Redundancy:**  
+Confirmed through numeral and tally equivalence.
+
+**First Appearance:**  
+Arithmetic primer panel.
+
+**Notes:**  
+Orientation symmetry may be expanded.
+
+---
+
+### Symbol: Powers of Ten
+
+**Category:** numeral structure
+
+**Represents:**  
+Decimal scaling.
+
+**Teaching Method:**  
+Repeated multiplication by ten generating increasing orders of magnitude.
+
+**Redundancy:**  
+Multiple tiers shown (10, 100, 1,000, …).
+
+**First Appearance:**  
+Arithmetic primer panel.
+
+**Notes:**  
+Establishes positional number system.
+
+---
+
+## Reserved Sections
+
+Future symbol classes may include:
+
+- division and ratios
+- fractions
+- geometric primitives
+- coordinate systems
+- physical measurement units
+- temporal markers
+- astronomical references
+
+These will be added as inventory entries, not essays.
 
 ---
 
 ## Status
 
-This file defines constraints, not a complete symbol lexicon.
+This page is maintained as a working catalog.
 
-The lexicon should grow slowly and only when demanded by clarity or survivability.
-
-Any symbol not defined in this Codex should be treated as unknown.
+Symbols graduate from experimental sketches into this list once their teaching method is judged robust under long-horizon assumptions.
