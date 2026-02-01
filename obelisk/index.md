@@ -155,6 +155,6 @@ Interpretation experiments are ongoing.
 
 ### Related Materials
 
-- arithmetic primer panel draft image
-- symbol inventory entries for numerals and operators
+- arithmetic primer panel draft image - First draft currently in Archive: Raw Notes
+- symbol inventory entries for numerals and operators - Found on the Symbols page
 
