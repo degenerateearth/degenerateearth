@@ -3,7 +3,7 @@ title: ""
 ---
 
 
-is a personal workshop and archival project dedicated to encoding foundational knowledge—mathematics, geometry, physics, and astronomy—into physical forms intended to endure across extreme spans of time.
+Codex is a personal workshop and archival project dedicated to encoding foundational knowledge—mathematics, geometry, physics, and astronomy—into physical forms intended to endure across extreme spans of time.
 
 The Codex documents experiments in symbolic systems, instructional sequences, and monumental inscriptions designed to remain interpretable after disruption, collapse, or cultural loss.
 
