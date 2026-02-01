@@ -155,6 +155,9 @@ Interpretation experiments are ongoing.
 
 ### Related Materials
 
-- arithmetic primer panel draft image - First draft currently in Archive: Raw Notes
+- arithmetic primer panel draft image
+  
+<img width="1536" height="1024" alt="basicnumerals" src="https://github.com/user-attachments/assets/420e6200-c62f-4b95-a9e5-2c4f511cb5d1" />
+
 - symbol inventory entries for numerals and operators - Found on the Symbols page
 
