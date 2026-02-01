@@ -1,4 +1,7 @@
-# Symbols
+---
+layout: page
+title: "Symbols"
+---
 
 This document defines symbol principles for the Codex.
 
