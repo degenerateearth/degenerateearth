@@ -4,35 +4,84 @@ title: "Suggestions"
 permalink: /suggestions/
 ---
 
-Use this form to send suggestions directly from the website.
+# Suggestions
 
-> This form submits through FormSubmit (server-side relay) to deliver messages to `trace@degenerate.earth` without opening your mail application.
+Use this form to draft an email to **trace@degenerate.earth** from your own mail app.
 
-<form action="https://formsubmit.co/trace@degenerate.earth" method="POST" enctype="multipart/form-data" style="max-width: 720px; display: grid; gap: 0.75rem;">
-  <input type="hidden" name="_subject" value="Suggestion for Codex" />
-  <input type="hidden" name="_template" value="table" />
-  <input type="hidden" name="_captcha" value="false" />
-  <input type="hidden" name="_next" value="https://codex.degenerate.earth/suggestions/?sent=1" />
+> Note: GitHub Pages is a static host, so the site cannot send email or upload files directly on your behalf. This form opens your local email client with the message pre-filled; attach files in your email app before sending.
 
-  <label for="name">Name</label>
-  <input id="name" name="name" type="text" autocomplete="name" required />
+<form id="suggestion-form" style="max-width: 720px; display: grid; gap: 0.75rem;">
+  <label for="sender-name">Name</label>
+  <input id="sender-name" name="sender-name" type="text" autocomplete="name" required />
 
-  <label for="email">Email</label>
-  <input id="email" name="email" type="email" autocomplete="email" required />
+  <label for="sender-email">Email</label>
+  <input id="sender-email" name="sender-email" type="email" autocomplete="email" required />
 
-  <label for="suggestion-subject">Subject</label>
-  <input id="suggestion-subject" name="subject" type="text" value="Suggestion for Codex" required />
+  <label for="subject">Subject</label>
+  <input id="subject" name="subject" type="text" value="Suggestion for Codex" required />
 
   <label for="message">Suggestion</label>
   <textarea id="message" name="message" rows="8" required></textarea>
 
-  <label for="attachment">Attachment(s)</label>
-  <input id="attachment" name="attachment" type="file" multiple />
-  <small>Optional. Attachments are submitted with the form.</small>
+  <label for="attachments">Attachment(s)</label>
+  <input id="attachments" name="attachments" type="file" multiple />
+  <small id="attachment-note">Selected files are listed for reference only; please attach them manually in your email app.</small>
 
-  <button type="submit">Send Suggestion</button>
+  <button type="submit">Open Email Draft</button>
 </form>
 
-<noscript>
-  <p>JavaScript is not required for this form to work.</p>
-</noscript>
+<p id="form-status" aria-live="polite"></p>
+
+<script>
+  (function () {
+    const form = document.getElementById('suggestion-form');
+    const attachments = document.getElementById('attachments');
+    const status = document.getElementById('form-status');
+
+    attachments.addEventListener('change', function () {
+      if (!attachments.files || attachments.files.length === 0) {
+        status.textContent = '';
+        return;
+      }
+
+      const names = Array.from(attachments.files).map(function (file) {
+        return file.name;
+      });
+
+      status.textContent = 'Remember to attach these file(s) in your email app: ' + names.join(', ');
+    });
+
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      const name = document.getElementById('sender-name').value.trim();
+      const email = document.getElementById('sender-email').value.trim();
+      const subject = document.getElementById('subject').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      const bodyLines = [
+        'Name: ' + name,
+        'Email: ' + email,
+        '',
+        'Suggestion:',
+        message,
+        '',
+        'Attachments selected on site (attach manually before sending):'
+      ];
+
+      if (attachments.files && attachments.files.length > 0) {
+        Array.from(attachments.files).forEach(function (file) {
+          bodyLines.push('- ' + file.name);
+        });
+      } else {
+        bodyLines.push('- None');
+      }
+
+      const mailto = 'mailto:trace@degenerate.earth'
+        + '?subject=' + encodeURIComponent(subject)
+        + '&body=' + encodeURIComponent(bodyLines.join('\n'));
+
+      window.location.href = mailto;
+    });
+  }());
+</script>
