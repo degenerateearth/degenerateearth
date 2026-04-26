@@ -12,6 +12,7 @@ header_pages:
   - obelisk/index.md
   - design/symbols.md
   - archive/raw-notes.md
+  - suggestions.md
 
 # Keep URLs clean: /obelisk/ not /obelisk/index.html
 permalink: pretty
