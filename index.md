@@ -9,7 +9,7 @@ The Codex documents experiments in symbolic systems, instructional sequences, an
 
 Its guiding assumption is simple: civilizations fail, languages drift, and media decay. Stone, redundancy, and structure persist.
 
-Scope
+## Scope
 
 Work recorded here focuses on:
 
@@ -25,13 +25,13 @@ astronomical reference frames
 
 Each entry represents an attempt to make advanced ideas reconstructable by an unknown future reader using minimal shared context.
 
-Method
+## Method
 
 Codex functions as both laboratory and record.
 
 Proposals are developed, tested, revised, and preserved in stabilized form once they meet durability and legibility criteria. Superseded approaches remain documented as part of the archive.
 
-Status
+## Status
 
 The Codex is active and incomplete.
 
