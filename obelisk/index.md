@@ -156,8 +156,7 @@ Interpretation experiments are ongoing.
 ### Related Materials
 
 - arithmetic primer panel draft image
-  <img width="1104" height="779" alt="obeliskmath" src="https://github.com/user-attachments/assets/bdffce4f-a69c-48fd-80d4-f97634a735a8" />
+  <img width="1104" height="779" alt="Arithmetic primer panel showing numerals, tally marks, and arithmetic relationships" src="/assets/obelisk-panel.png" />
 
 
 - symbol inventory entries for numerals and operators - Found on the Symbols page
-
