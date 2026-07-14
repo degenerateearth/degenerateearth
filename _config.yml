@@ -7,7 +7,6 @@ markdown: kramdown
 
 # Simple top-nav (Minima)
 header_pages:
-  - index.md
   - canon/degenerate-earth.md
   - obelisk/index.md
   - design/symbols.md
