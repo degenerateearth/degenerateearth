@@ -3,216 +3,245 @@ layout: page
 title: "Symbols"
 ---
 
-This page catalogs symbolic encodings used in the Codex and Obelisk projects.
+This is the active inventory of marks and diagram conventions used by the four-face Obelisk prototype. An entry records what a mark is intended to represent, how the surrounding pictures attempt to teach it, and where interpretation can fail.
 
-Each entry records:
-
-- the symbol or mark
-- what it represents
-- how its meaning is taught without language
-- where it appears in the system
-
-This is not a design manifesto.  
-It is an inventory.
+The inventory now includes arithmetic, geometric, physical, and material-process conventions. Presence here means the symbol appears in the prototype. It does **not** mean that unbriefed-reader testing has validated it.
 
 ---
 
-## Format
+## Numerals and operations
 
-Each symbol entry should follow this structure:
+### `0`
 
-### Symbol: <name or glyph>
+**Represents:** absence of counted objects.
 
-**Category:** numeral / operator / structural / physical mark / diagrammatic / other
+**Teaching method:** an empty outlined tray is placed beside filled trays before zero participates in equations.
 
-**Represents:**  
-What the symbol encodes.
+**Redundancy:** `1 + 0 = 1`, `1 - 0 = 1`, and complete removal producing an empty tray.
 
-**Teaching Method:**  
-How its meaning is inferred visually or through pattern alone.
+**Risk:** an outline may be read as an object rather than a container.
 
-**Redundancy:**  
-What reinforces the interpretation (repetition, equivalence, scaling, contrast, etc.).
+### `1–9`
 
-**First Appearance:**  
-Where it is introduced in the Codex or Obelisk.
+**Represents:** discrete quantities.
 
-**Notes:**  
-Edge cases, ambiguity risks, or future revisions.
+**Teaching method:** each numeral is paired with the same number of recognizable stones; later rows pair objects, tally marks, and numerals.
 
----
+**Redundancy:** the numerals recur in groups, grids, lengths, balances, and repeated trials.
 
-## Encoded Symbols
+### `=`
 
-(Active inventory below.)
+**Represents:** equal quantity or matching relationship on both sides.
 
----
+**Teaching method:** stones are connected one to one with tally marks and the same numeral before different expressions are compared.
 
-### Symbol: 0
+**Redundancy:** level balances, mirror halves, equal pendulum intervals, and arithmetic identities repeat the idea physically.
 
-**Category:** numeral
+**Risk:** the reader may initially interpret it as a divider or connector.
 
-**Represents:**  
-Absence of quantity.
+### `+`
 
-**Teaching Method:**  
-Shown adjacent to counted marks while having none beneath it; paired with operations such as `1 + 0 = 1`.
+**Represents:** combination.
 
-**Redundancy:**  
-Null tally, identity in addition and subtraction.
+**Teaching method:** two trays visibly converge into one tray containing every original object.
 
-**First Appearance:**  
-Arithmetic primer panel.
+### `−`
 
-**Notes:**  
-Serves as anchor for positional notation.
+**Represents:** removal or separation from a quantity.
 
----
+**Teaching method:** nine stones visibly branch into six retained stones and three removed stones before `9 - 3 = 6` appears.
 
-### Symbol: 1–9
+**Revision:** this replaces the arithmetic source's conflicting tally example.
 
-**Category:** numeral
+### `*`
 
-**Represents:**  
-Discrete quantities.
+**Represents:** repeated equal groups.
 
-**Teaching Method:**  
-Mapped directly to increasing tally groups.
+**Teaching method:** three trays holding two stones each are paired with `2 + 2 + 2 = 6` and then `2 * 3 = 6`.
 
-**Redundancy:**  
-Repeated across addition and multiplication examples.
+**Risk:** rotational symmetry can make the mark look decorative; equal-group pictures carry the meaning.
 
-**First Appearance:**  
-Arithmetic primer panel.
+### `/`
 
-**Notes:**  
-Grouped in fives to emphasize aggregation.
+**Represents:** equal sharing and later ratio.
 
----
+**Teaching method:** six objects divide into two equal trays before `6 / 2 = 3`. The same mark then compares distance with repeated time intervals.
 
-### Symbol: =
+**Risk:** the slash is more abstract than the initial operations and needs behavioral testing.
 
-**Category:** operator
+### `1/2` and `1/4`
 
-**Represents:**  
-Equivalence between expressions.
+**Represents:** equal parts of a whole.
 
-**Teaching Method:**  
-Pairs different representations of the same quantity.
+**Teaching method:** two half-tiles reconstruct one tile; a full turn is divided into four square corners; half-width grid cells have one quarter the unit area.
 
-**Redundancy:**  
-Used in multiple arithmetic contexts.
+**Redundancy:** symmetry, turn fractions, scale, and area reuse the fractions.
 
-**First Appearance:**  
-Arithmetic primer panel.
+### Ten-object enclosure and ten-by-ten grid
 
-**Notes:**  
-None.
+**Category:** numeral structure.
+
+**Represents:** decimal grouping and one hundred as ten groups of ten.
+
+**Teaching method:** bounded boxes contain exactly ten objects; two bundles and three loose objects produce 23; a 10 × 10 array produces 100.
+
+**Revision:** the prototype grounds tens and hundreds before invoking larger magnitudes.
 
 ---
 
-### Symbol: +
+## Direction and reading
 
-**Category:** operator
+### Arrow
 
-**Represents:**  
-Combination of quantities.
+**Represents:** change, movement, process order, or transfer.
 
-**Teaching Method:**  
-Shown alongside tally groups being merged into larger totals.
+**Teaching method:** arrows first follow stones physically moved from separate trays into a combined tray.
 
-**Redundancy:**  
-Cross-checked with numeral results.
+**Redundancy:** rolling, pouring, heating, filtering, and rearrangement all preserve recognizable objects across the arrow.
 
-**First Appearance:**  
-Arithmetic primer panel.
+**Risk:** arrows have several related uses. Object continuity must distinguish process from force or travel.
 
-**Notes:**  
-Associative and commutative properties implied later.
+### Numbered cartouche
 
----
+**Represents:** panel position in the curriculum.
 
-### Symbol: −
+**Teaching method:** consecutive panel numbers repeat in a corner; each panel ends with a small arrow and the next number.
 
-**Category:** operator
+**Risk:** ordered navigation is itself a convention and has not been tested without instruction.
 
-**Represents:**  
-Removal of quantity.
+### One to four face dots
 
-**Teaching Method:**  
-Illustrated through reduction of tallies and numeric decrease.
+**Represents:** arithmetic, geometry, physics, or chemistry face.
 
-**Redundancy:**  
-Multiple scales shown.
-
-**First Appearance:**  
-Arithmetic primer panel.
-
-**Notes:**  
-Zero interactions explicitly demonstrated.
+**Teaching method:** every panel on the same physical face repeats the same dot count; the subject matter provides secondary confirmation.
 
 ---
 
-### Symbol: *
+## Geometry conventions
 
-**Category:** operator
+### Peg and taut cord
 
-**Represents:**  
-Repeated grouping (multiplication).
+**Represents:** a point, fixed center, straight segment, or repeatable length.
 
-**Teaching Method:**  
-Second operand shown as repeated addition of the first.
+**Teaching method:** a visibly slack cord between two pegs is contrasted with the same cord pulled straight, then repeated end to end.
 
-**Redundancy:**  
-Confirmed through numeral and tally equivalence.
+### Tick mark
 
-**First Appearance:**  
-Arithmetic primer panel.
+**Represents:** equal intervals along a line.
 
-**Notes:**  
-Orientation symmetry may be expanded.
+**Teaching method:** a single cord length is copied repeatedly between marks and counted.
 
----
+### Small corner square
 
-### Symbol: Powers of Ten
+**Represents:** a square corner, perpendicular directions, or one quarter turn.
 
-**Category:** numeral structure
+**Teaching method:** folding a rectangle produces the corner; hanging cord and still water reproduce perpendicular references later.
 
-**Represents:**  
-Decimal scaling.
+### Tiled square
 
-**Teaching Method:**  
-Repeated multiplication by ten generating increasing orders of magnitude.
+**Represents:** area measured in repeated square units.
 
-**Redundancy:**  
-Multiple tiers shown (10, 100, 1,000, …).
+**Teaching method:** a rectangle's boundary count is separated from the count of interior tiles.
 
-**First Appearance:**  
-Arithmetic primer panel.
+### Gridded cube
 
-**Notes:**  
-Establishes positional number system.
+**Represents:** volume measured in repeated cubic units.
+
+**Teaching method:** visible unit cubes are stacked in counted layers. An unfolded six-square net separately represents surface area.
+
+### Fine construction line
+
+**Represents:** reference, correspondence, or a measured relation rather than a material object.
+
+**Risk:** line-weight differences are vulnerable to erosion and need fabrication testing.
 
 ---
 
-## Reserved Sections
+## Physical conventions
 
-Future symbol classes may include:
+### Ground line with hatching
 
-- division and ratios
-- fractions
-- geometric primitives
-- coordinate systems
-- physical measurement units
-- temporal markers
-- astronomical references
+**Represents:** a fixed surface and down direction.
 
-These will be added as inventory entries, not essays.
+**Teaching method:** falling stones approach the line; hanging objects settle perpendicular to it.
+
+### Balance and fulcrum
+
+**Represents:** comparison of weight or turning effect.
+
+**Teaching method:** equal reference stones produce a level equal-arm beam. Unequal arms then balance one weight at twice the distance against two weights at one distance.
+
+### Pendulum positions
+
+**Represents:** successive states and a repeatable time interval.
+
+**Teaching method:** the same hanging stone returns to its starting side; repeated complete returns are counted.
+
+**Risk:** multiple drawn positions are temporal samples, not multiple stones.
+
+### Wavy horizontal line
+
+**Represents:** a free liquid surface.
+
+**Teaching method:** it remains horizontal across different vessels and changes height when an object is submerged.
+
+### Flame and radiant sun
+
+**Represents:** familiar sources of heat.
+
+**Teaching method:** each appears beside observable melting, evaporation, drying, or material change.
+
+**Risk:** the source alone does not specify temperature or duration.
+
+### Hand
+
+**Represents:** deliberate human action such as moving, pulling, rubbing, shaping, or plucking.
+
+**Risk:** it is a pictogram and assumes recognition of a simplified hand outline.
+
+---
+
+## Matter and process conventions
+
+### Circles and squares as persistent material kinds
+
+**Represents:** two distinguishable types of component.
+
+**Teaching method:** the shapes are sorted physically, then reused in the final rearrangement model while the count of each shape remains constant.
+
+**Limit:** they do not identify real chemical elements.
+
+### Filter triangle
+
+**Represents:** woven or porous material retaining coarse insoluble grains while liquid passes through.
+
+**Teaching method:** recognizable grains remain above the mesh and drops collect below.
+
+**Limit:** no panel claims that filtered water is safe to drink.
+
+### Evaporation and condensation path
+
+**Represents:** transfer of liquid through vapor and back to liquid.
+
+**Teaching method:** vapor traces rise from a heated open vessel; drops form on a cool sloped surface and collect separately.
+
+### Closed vessel
+
+**Represents:** a boundary preventing material from entering or leaving during the comparison.
+
+**Teaching method:** the same sealed vessel rests on one balance beam before and after internal mixing.
+
+### Subdivision bridge and particle diagram
+
+**Represents:** a proposed finer-grained model of matter.
+
+**Teaching method:** the same sample is repeatedly divided into smaller cells before a magnified circle encloses repeated component marks.
+
+**Limit:** this is the least secure bridge in the current system. Subdivision motivates a model but does not prove atoms or bonding.
 
 ---
 
 ## Status
 
-This page is maintained as a working catalog.
+These symbols are now encoded in prototype one. They remain experimental until readers unfamiliar with the design can reproduce the pictured operations and predict new examples. Failed interpretations will remain part of the record and may require new redundancy, reordered lessons, or removal of the symbol.
 
-Symbols graduate from experimental sketches into this list once their teaching method is judged robust under long-horizon assumptions.
